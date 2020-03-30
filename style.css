@@ -1,0 +1,49 @@
+body {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#field {
+	margin: 20px auto;
+	height: 250px;
+	width: 250px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+.container {
+	height: 50px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	margin: 10px auto;
+}
+
+button {
+	padding: 5px;
+	border: 1px solid blue;
+	border-radius: 5px;
+}
+
+#clear {
+	height: 40px;
+	width: 110px;
+	margin-right: 10px;
+}
+
+#restore {
+	height: 40px;
+	width: 130px;
+}
+
+.black {
+	background-color: black;
+}
+
+table td {
+	border: 2px solid #000000;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
